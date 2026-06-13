@@ -35,10 +35,10 @@ include '../includes/dbconfig.inc.php';
 <section id="header">
         <a href="index.php"><img src="img_home/kitchencomfortlogo1.png" class="logo" alt="" style="width:250px; height:45px;"></a>
         <div class="search-container">
-    <form action="../includes/search.inc.php" method="GET">
+    <!-- <form action="../includes/search.inc.php" method="GET">
         <input type="text" name="search" class="search-box" placeholder="Search products...">
         
-    </form>
+    </form> -->
 </div>
         <div>
             <ul id="navbar">

@@ -15,6 +15,9 @@ body{
 background-color: white;
 }
 
+.price {
+    color: #088178;
+}
 
 #addToCartBtn {
        background-color: #088178 !important;
@@ -65,7 +68,7 @@ background-color: white;
     <div class="single-pro-details">
         <h5><?php echo $product_category;?></h5><br>
         <h2><?php echo $product_name;?></h2>
-        <h2>₱<?php echo number_format ($product_price, 2);?></h2><hr style="width:90%;">
+        <h2 class="price">₱<?php echo number_format ($product_price, 2);?></h2><hr style="width:90%;">
         <br>
         <input type="number" value="1">
         <button id="addToCartBtn" class="addToCartBtn">Add to Cart</button>

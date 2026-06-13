@@ -3,6 +3,11 @@
     text-align: center;
 }
 
+/* body {
+  background: red !important;
+} */
+
+
 *{
     margin: 0;
     padding: 0;
@@ -164,8 +169,10 @@ body {
 
 /* Home Page  */
 #hero {
-    background-image: url("img_home/background1.png");
-    height: 100vh;
+    background-image: 
+        linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),
+        url("img_home/couple3.jpg");
+    height: 130vh;
     width:100%;
     background-size: cover;
     background-position: top 25% right 0;
@@ -177,8 +184,16 @@ body {
 }
 
 #hero h4 {
+    font-size: 16px;
     padding-bottom: 15px;
 }
+
+
+#hero h2, h1 {
+    font-size: 50px;
+    color:#ffffff;
+}
+
 
 #hero h1 {
     color: #088178;
@@ -192,6 +207,7 @@ body {
     width: 10%;
     padding: 0 20px; 
     border-radius: 3px;
+    margin-top: 140px;
 }
 
 #hero button:hover {
@@ -517,6 +533,7 @@ footer .copyright{
     padding: 0 20px; 
     border-radius: 3px;
 }
+
 
 #prodetails .single-pro-details span{
     line-height: 25px;

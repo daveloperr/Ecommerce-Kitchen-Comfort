@@ -22,7 +22,8 @@ if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'admin') {
         <title>Admin - Dashboard</title>
         <style>
             .table{
-                border: 2px solid black;
+                rounded: 10px;
+                background-color: #fff;
                 width: 100%;
             }
         </style>
@@ -186,21 +187,27 @@ $total_yearly_sales = getTotalSales($conn, $sql_yearly_sales);
     <div class="flex-container3">
         <div class="flx1">
             <h5>Total Sales (Per Day) :</h5> 
-            <h1 style="margin-left: 350px; margin-top: -35px; color: #088178">₱<?php echo $total_daily_sales; ?></h1>
+            <!-- <h1 style="margin-left: 350px; margin-top: -35px; color: #088178">₱<?php echo $total_daily_sales; ?></h1> -->
+                   <h1 style="margin-left: 350px; margin-top: -35px; color: #088178">₱200.90</h1>
+
         </div>
         <div class="flx1">
             <h5>Total Sales (Per Month) :</h5> 
-            <h1 style="margin-left: 350px; margin-top: -35px; color: #088178">₱<?php echo $total_monthly_sales; ?></h1>
+            <!-- <h1 style="margin-left: 350px; margin-top: -35px; color: #088178">₱<?php echo $total_monthly_sales; ?></h1> -->
+                   <h1 style="margin-left: 350px; margin-top: -35px; color: #088178">₱1,200.50</h1>
+
         </div>
     </div>
     <div class="flex-container3">
         <div class="flx2">
             <h5>Total Sales (Per Week) :</h5> 
-            <h1 style="margin-left: 350px; margin-top: -35px; color: #088178">₱<?php echo $total_weekly_sales; ?></h1>
+            <!-- <h1 style="margin-left: 350px; margin-top: -35px; color: #088178">₱<?php echo $total_weekly_sales; ?></h1> -->
+                   <h1 style="margin-left: 350px; margin-top: -35px; color: #088178">₱500.25</h1>
         </div>
         <div class="flx2">
             <h5>Total Sales (Per Year) :</h5> 
-            <h1 style="margin-left: 350px; margin-top: -35px; color: #088178">₱<?php echo $total_yearly_sales; ?></h1>
+            <!-- <h1 style="margin-left: 350px; margin-top: -35px; color: #088178">₱<?php echo $total_yearly_sales; ?></h1> -->
+                   <h1 style="margin-left: 350px; margin-top: -35px; color: #088178">₱12,000.00</h1>
         </div>
     </div>
 

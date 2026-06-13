@@ -7,7 +7,7 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel ="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css?v=123">
 
 </head>
 <body>
@@ -15,11 +15,11 @@
     <?php require 'header.php'?>
 
     <section id="hero">
-        <h4>Discover Exquisite Kitchenware Essentials</h4>
-        <h2>Enhance Culinary Skills</h2>
-        <h1>Top-Quality & Excellence</h1>
-        <p>Transform your kitchen with our premium, stylish essentials.</p>
-        <a href="cookware.php"> <button style="width:150px;">Shop Now</button> </a>
+        <!-- <h4>Discover Exquisite Kitchenware Essentials</h4> -->
+        <h2>Cook with love, <br/>create with comfort.</h2>
+        <!-- <h1>Top-Quality & Excellence</h1>
+        <p>Transform your kitchen with our premium, stylish essentials.</p> -->
+        <!-- <a href="cookware.php"> <button style="width:150px;">Shop Now</button> </a> -->
     </section>
 
 

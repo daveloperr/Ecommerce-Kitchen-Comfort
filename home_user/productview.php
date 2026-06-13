@@ -9,7 +9,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<style>body{background-color: white;}</style>
+<style>
+body{
+    
+background-color: white;
+}
+
+
+#addToCartBtn {
+       background-color: #088178 !important;
+    color: white !important;
+    width: 80% !important;
+    height: 50px !important;
+}
+
+</style>
 <body>
 
 <?php require 'header.php';?>
@@ -51,10 +65,10 @@
     <div class="single-pro-details">
         <h5><?php echo $product_category;?></h5><br>
         <h2><?php echo $product_name;?></h2>
-        <h2>₱<?php echo $product_price;?></h2><hr style="width:80%;">
+        <h2>₱<?php echo number_format ($product_price, 2);?></h2><hr style="width:90%;">
         <br>
         <input type="number" value="1">
-        <button id="addToCartBtn">Add to Cart</button>
+        <button id="addToCartBtn" class="addToCartBtn">Add to Cart</button>
         <h4>Product Details</h4>
         <span>
             <ul>
